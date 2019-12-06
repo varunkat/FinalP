@@ -5,7 +5,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.chess.chessgame"
+    tools:context=".Chess"
     android:background="@color/chess_backgroundBoard">
 
     <ImageView
@@ -1005,10 +1005,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/undo_button"
+        android:layout_marginEnd="16dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="16dp"
-        android:onClick="undo" />
+        android:onClick="undo"
+        android:layout_marginRight="16dp" />
 
     <LinearLayout
         android:orientation="vertical"

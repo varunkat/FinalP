@@ -8,7 +8,4 @@
     <string name="chess_knight">Knight</string>
     <string name="chess_game_over">Game Over !!</string>
 
-
-    <!--connect4 strings-->
-    <string name="action_settings">Settings</string>
 </resources>

@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openMain2Activity() {
-        Intent intent = new Intent(this,chessgame.class);
+        Intent intent = new Intent(this, Chess.class);
         startActivity(intent);
     }
 

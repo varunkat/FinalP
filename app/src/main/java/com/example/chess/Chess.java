@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-    public class chessgame extends AppCompatActivity implements View.OnClickListener {
+    public class Chess extends AppCompatActivity implements View.OnClickListener {
 
         public Boolean FirstPlayerTurn;
         public ArrayList<Coordinates> listOfCoordinates;
