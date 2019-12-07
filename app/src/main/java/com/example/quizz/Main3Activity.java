@@ -46,15 +46,15 @@ public class Main3Activity extends AppCompatActivity {
         IMC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMainActivity();
+                openMain4Activity();
             }
         });
 
 
 
     }
-    public void openMainActivity() {
-        Intent intent = new Intent(this,MainActivity.class);
+    public void openMain4Activity() {
+        Intent intent = new Intent(this,Main4Activity.class);
         startActivity(intent);
     }
 }
