@@ -1,4 +1,4 @@
-package com.example.chess;
+package com.example.quizz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -29,10 +29,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openMain2Activity() {
-        Intent intent = new Intent(this, Chess.class);
+        Intent intent = new Intent(this,Main2Activity.class);
         startActivity(intent);
     }
 
 
 
 }
+
