@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Main3Activity extends AppCompatActivity {
+public class screen1 extends AppCompatActivity {
 
     private Button IMC;
     TextView textScreen, textQuestion, textTitle, textBtn;
@@ -54,7 +54,7 @@ public class Main3Activity extends AppCompatActivity {
 
     }
     public void openMain4Activity() {
-        Intent intent = new Intent(this,Main4Activity.class);
+        Intent intent = new Intent(this, Question2.class);
         startActivity(intent);
     }
 }

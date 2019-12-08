@@ -17,19 +17,19 @@ import android.widget.Toast;
 
 import java.util.Random;
 
-public class Main2Activity extends AppCompatActivity {
+public class Question2 extends AppCompatActivity {
 
     private int presCounter = 0;
     private int maxPresCounter = 4;
-    private String[] keys = {"R", "I", "B", "D", "X"};
-    private String textAnswer = "BIRD";
+    private String[] keys = {"P", "A", "B", "R", "H"};
+    private String textAnswer = "HARP";
     TextView textScreen, textQuestion, textTitle;
     Animation smallbigforth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main4);
 
         smallbigforth = AnimationUtils.loadAnimation(this, R.anim.smallbigforth);
 
@@ -122,12 +122,12 @@ public class Main2Activity extends AppCompatActivity {
         if(editText.getText().toString().equals(textAnswer)) {
 //            Toast.makeText(MainActivity.this, "Correct", Toast.LENGTH_SHORT).show();
 
-            Intent a = new Intent(Main2Activity.this,Main3Activity.class);
+            Intent a = new Intent(Question2.this, Screen2.class);
             startActivity(a);
 
             editText.setText("");
         } else {
-            Toast.makeText(Main2Activity.this, "Wrong", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Question2.this, "Wrong", Toast.LENGTH_SHORT).show();
             editText.setText("");
         }
 
